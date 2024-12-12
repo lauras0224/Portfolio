@@ -1,0 +1,61 @@
+header {
+    display: flex;
+    background-color:rgb(85, 110, 73);
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 0px;
+    border: 10px;
+}
+
+header a i {
+    color: rgb(9, 9, 9);
+    font-size: 1em;
+    padding: 0.5em;
+}
+header nav ul { 
+    display: flex;
+    gap: 4.0em;
+}
+header nav ul li a {
+    color: rgb(20, 20, 21);}
+
+    .titulo_seccion {
+        position: relative;
+        font-size: 40px;
+        color: #0b1316;
+        text-align: center;
+        }
+        .container {
+            text-align: center;
+       /* max-width: 0  Define el ancho máximo del contenedor */
+        /*margin:  auto;  Centra el contenedor horizontalmente */
+       /* padding: 100px;  Agrega un poco de espacio alrededor del formulario */
+       /* border: 100px;  Agrega un borde al contenedor */
+       /* border-radius: 100px;  Agrega bordes redondeados al contenedor */
+        
+        }
+        .form-group {
+        margin-bottom: 15px; /* Espacio entre cada input */
+        }
+        label {
+        margin-bottom: 5px;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+        width: XX; /* Define el ancho máximo del input */
+        padding: 8px;
+        border: 1px solid #4dc39c;
+        border-radius: 4px;
+        }
+        textarea {
+        resize: vertical; /* Permite redimensionar verticalmente el textarea */
+        }
+        
+        /* Coloca estilos a tu botón */
+        
+        button:hover {
+        background-color: #298864;
+        }
+        

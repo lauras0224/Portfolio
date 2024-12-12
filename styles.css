@@ -1,0 +1,86 @@
+body {
+    margin: 1em;
+    padding: 1em; }
+    ol,
+    ul {
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+    }
+    header {
+        display: flex;
+        background-color:rgb(151, 182, 149);
+        align-items: center;
+        justify-content: space-between;
+        padding: 0%;
+        margin: 0px;
+        border: 0px;  }
+
+        header a i {
+            color: rgb(24, 182, 158);
+            font-size: 3em;
+            padding: 1cm;
+        }
+        header nav ul { 
+            display: flex;
+            gap: 3.0em;
+        }
+
+        header nav ul li a {
+            color: rgb(24, 37, 35);
+            padding: 1cm;
+            font-family: "Ubuntu", serif;
+            font-size: larger;
+          
+        }
+
+        h1 {
+            text-align: center;
+                display: flex;
+                font-family: "Ubuntu", serif;
+                font-weight: 700;
+                font-style: unset;
+                font-size: 100px;
+            }
+
+           #img1{ 
+                /* Tamaño específico de una imagen */
+    width: 400px; /* Ancho fijo */
+    height: 25%; /* Alto fijo */
+                
+                }
+                
+                
+  h3 {
+    padding: 1px;
+    justify-content: left;
+}
+
+.seccion-2{
+    display: flex;
+    justify-content:center;
+    
+}
+#img2 {
+    width: 100%; /* Ocupa todo el ancho del navegador */
+    height: 100px; /* Altura automática */
+    object-fit: cover; /* Corta la imagen para llenar el espacio */
+    object-position: center; /* Centra la imagen dentro del recorte */
+    box-sizing: border-box; /* Incluye padding y borde en el tamaño total */
+}
+footer {
+    display: flex;
+    justify-content:center;
+    list-style: none;
+    padding-inline-end:5px;
+    padding-top: 5px;
+    margin: 5px;
+    border: 5px;
+}
+     /* Estilos para pantallas más pequeñas (hasta 768px) */
+     @media (max-width: 768px)
+     {
+      body { background-color: blue;}
+         /* Aquí puedes escribir los estilos que se aplicarán en pantallas más pequeñas */
+       }
