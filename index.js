@@ -3,7 +3,7 @@ alert("Bienvenido a mi portfolio!")
 const nombre = prompt("Cómo te llamas?")
 alert("Hola " + nombre + "! Bienvenido a mi portfolio!")
 // Array de frases
-const frase = [
+const frases = [
 "La vida es lo que pasa mientras estás ocupado haciendo otros planes.",
 "El único modo de hacer un gran trabajo es amar lo que haces.",
 "No cuentes los días, haz que los días cuenten.",
